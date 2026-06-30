@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Dany Wahyu Hidayat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+    <div class="nav-container">
+
+        <a href="#home" class="nav-logo">Dany<span>.Wahyu</span></a>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#home"         class="nav-link active">Home</a></li>
+            <li><a href="#about"        class="nav-link">About</a></li>
+            <li><a href="#experience"   class="nav-link">Experience</a></li>
+            <li><a href="#portfolio"    class="nav-link">Portfolio</a></li>
+            <li><a href="#achievements" class="nav-link">Achievements</a></li>
+            <li><a href="#contact"      class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            <button id="theme-btn" title="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+
+    </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero-section">
+    <div class="hero-content reveal-element">
+
+        <span class="hero-subtitle">
+            Saya Ahli di Bidang&nbsp;
+            <span id="typing-text"></span>
+        </span>
+
+        <h1 class="hero-title">
+            Halo, Saya<br>
+            <span class="gradient-text">Dany Wahyu Hidayat</span>
+        </h1>
+
+        <p class="hero-desc">
+            Lulusan Teknik Elektronika Industri yang berfokus pada Kelistrikan, Otomasi Industri,
+            Pemrograman PLC/HMI, dan Sistem Mekatronika. Berpengalaman dalam integrasi robotika
+            manufaktur dan troubleshooting sistem kontrol.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#portfolio" class="btn btn-primary">
+                <i class="fas fa-folder-open"></i> Lihat Proyek
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+                <i class="fas fa-envelope"></i> Hubungi Saya
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="about-section">
+    <div class="section-container">
+
+        <h2 class="section-title reveal-element">Tentang Saya & Pendidikan</h2>
+        <p class="section-subtitle reveal-element">Latar belakang, keahlian teknis, dan pendidikan formal saya.</p>
+
+        <div class="about-grid">
+            <div class="about-text reveal-element">
+
+                <p>Saya adalah lulusan <strong>SMK Krian 2 Sidoarjo</strong> jurusan Teknik Elektronika Industri
+                dengan spesialisasi kuat pada sistem kontrol otomatisasi dan kelistrikan industri. Memiliki rekam
+                jejak kompetisi nasional di bidang PLC dan Robotika, serta pengalaman praktis dalam instalasi
+                kelistrikan pabrik dan perakitan panel kontrol.</p>
+
+                <div class="education-timeline">
+                    <h4><i class="fas fa-graduation-cap"></i> SMK Krian 2 Sidoarjo</h4>
+                    <p class="edu-meta">Teknik Elektronika Industri &nbsp;|&nbsp; 2022 – 2025</p>
+                    <p class="edu-desc">Fokus Studi: Otomasi Industri, Pemrograman SCADA/HMI,
+                    Mikrokontroler, K3 Kelistrikan, dan Instalasi Motor Listrik 3-Fasa.</p>
+                </div>
+
+                <h3>Keahlian Teknis & Soft Skills</h3>
+                <div class="skills-container">
+                    <span class="skill-tag hard"><i class="fas fa-microchip"></i> PLC (Omron, Mitsubishi, Panasonic, Schneider, Wecon)</span>
+                    <span class="skill-tag hard"><i class="fas fa-desktop"></i> Integrasi PLC-HMI & SCADA</span>
+                    <span class="skill-tag hard"><i class="fas fa-bolt"></i> Pengawatan Diagram 1 & 3 Fasa</span>
+                    <span class="skill-tag hard"><i class="fas fa-tools"></i> Panel Kontrol & Motor (DOL/Star-Delta)</span>
+                    <span class="skill-tag hard"><i class="fas fa-network-wired"></i> IoT & Mikrokontroler (ESP32)</span>
+                    <span class="skill-tag hard"><i class="fas fa-drafting-compass"></i> AutoCAD Electrical</span>
+                    <span class="skill-tag hard"><i class="fas fa-file-excel"></i> MS Excel & Word</span>
+                    <span class="skill-tag soft"><i class="fas fa-users"></i> Leadership & Manajemen Tim</span>
+                    <span class="skill-tag soft"><i class="fas fa-brain"></i> Analisis Logika & Troubleshooting</span>
+                    <span class="skill-tag soft"><i class="fas fa-shield-alt"></i> Keselamatan Kerja (K3)</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience" class="experience-section">
+    <div class="section-container">
+
+        <h2 class="section-title reveal-element">Pengalaman & Sertifikasi</h2>
+        <p class="section-subtitle reveal-element">Riwayat kerja, organisasi, dan pelatihan profesional.</p>
+
+        <div class="portfolio-grid">
+
+            <div class="portfolio-card experience-card reveal-element">
+                <span class="card-category"><i class="fas fa-briefcase"></i> Pengalaman Kerja / Magang</span>
+                <h3>Asisten Teknisi Listrik</h3>
+                <p><strong>PT. Bangun Arta Hutama (2023)</strong></p>
+                <ul>
+                    <li>Maintenance sistem listrik pompa industri skala besar.</li>
+                    <li>Instalasi, pengujian, dan troubleshooting preventif panel kontrol & motor listrik.</li>
+                    <li>Perakitan mekanik dan elektrik mesin crusher serta conveyor system pertambangan.</li>
+                </ul>
+            </div>
+
+            <div class="portfolio-card experience-card reveal-element">
+                <span class="card-category"><i class="fas fa-users"></i> Organisasi & Kepemimpinan</span>
+                <h3>OSIS & Karang Taruna</h3>
+                <p><strong>Wakil Ketua OSIS (2024 – 2025)</strong></p>
+                <p style="margin-top:.6rem;">Dipercaya memimpin program kerja taktis skala sekolah, bertindak sebagai
+                Ketua Pelaksana LDKS SMK 2023-2024, serta aktif sebagai Sekretaris Karang Taruna I (2024–2027).</p>
+            </div>
+
+            <div class="portfolio-card experience-card reveal-element">
+                <span class="card-category"><i class="fas fa-certificate"></i> Pelatihan & Sertifikasi</span>
+                <h3>Sertifikasi Kompetensi</h3>
+                <ul style="margin-top:.8rem; list-style:none; padding:0;">
+                    <li style="margin-bottom:.6rem;"><i class="fas fa-check-circle" style="color:#4f46e5;margin-right:.5rem;"></i>Training Robotics Manufacturing System (RMS) — 2025</li>
+                    <li style="margin-bottom:.6rem;"><i class="fas fa-check-circle" style="color:#4f46e5;margin-right:.5rem;"></i>Pelatihan Collaborative Robot (COBOT) Schneider</li>
+                    <li><i class="fas fa-check-circle" style="color:#4f46e5;margin-right:.5rem;"></i>Training Public Speaking & Management Bisnis</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= PORTFOLIO ================= -->
+<section id="portfolio" class="portfolio-section">
+    <div class="section-container">
+
+        <h2 class="section-title reveal-element">Portofolio & Proyek Teknis</h2>
+        <p class="section-subtitle reveal-element">
+            Dokumentasi sistem kontrol, pemrograman otomasi, dan bukti rekayasa mandiri maupun tim.
+        </p>
+
+        <div class="portfolio-grid">
+
+            <div class="portfolio-card reveal-element">
+                <div class="card-img-container">
+                    <img src="assets/plc-project-omron.png" alt="Otomasi PLC Omron" class="portfolio-img">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Sistem Otomasi Industri</span>
+                    <h3>Sistem Filterisasi Air Bersih Otomatis</h3>
+                    <p>Merancang program sistem kontrol berbasis PLC Omron dan desain HMI Omron untuk aplikasi monitoring dan kontroling sistem filterisasi dengan di lengkapi berbagai mode sesuai dengan standar industri dan safety K3.</p>
+                    <div class="project-evidence">
+                        <a href="https://drive.google.com/drive/folders/1B0IoVN928fD7GSyFSIUKQfuwmBJrkzb7" target="_blank" class="evidence-link"><i class="fas fa-folder-open"></i> Dokumentasi</a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-card reveal-element">
+                <div class="card-img-container">
+                    <img src="assets/plc-project-wicon.png" alt="Lengan Robot" class="portfolio-img">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Mekatronika</span>
+                    <h3>Sistem Otomasi Booster Pump 3-axis Berbasis PLC & HMI Terintegrasi VFD</h3>
+                    <p>Sistem kontrol multi-pompa otomatis (Booster Pump) yang dirancang untuk menjaga kestabilan tekanan air (Pressure) pada pipa distribusi industri secara real-time. Menggunakan integrasi PLC dan HMI Wecon untuk memantau nilai frekuensi VFD (Hz), status operasional pompa (ON/OFF), serta pengaturan batas tekanan Cut-In dan Cut-Out. Dilengkapi dengan mode operasi Manual/Auto untuk efisiensi energi dan kemudahan maintenance sistem fluida.</p>
+                    <div class="project-evidence">
+                        <a href="https://drive.google.com/drive/folders/1B0IoVN928fD7GSyFSIUKQfuwmBJrkzb7" target="_blank" class="evidence-link"><i class="fas fa-file-alt"></i> Laporan Teknis</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-card reveal-element">
+                <div class="card-img-container">
+                    <img src="assets/cobot-schneider.jpg" alt="Cobot Schneider" class="portfolio-img">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Robotika</span>
+                    <h3>Cobot Schneider Integration</h3>
+                    <p>Implementasi dan pemrograman Collaborative Robot (COBOT) Schneider untuk optimasi rute perakitan manufaktur otomatis.</p>
+                    <div class="project-evidence">
+                        <a href="https://drive.google.com/file/d/1mskQHbc2wy3reS_z8-paBwEkpUUpfZPN/view?usp=sharing&t=3.237" target="_blank" class="evidence-link"><i class="fas fa-certificate"></i> Bukti Training</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-card reveal-element">
+                <div class="card-img-container">
+                    <img src="assets/assembly.jpg" alt="Perakitan Panel" class="portfolio-img">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Kelistrikan Industri</span>
+                    <h3>Perakitan & Pengawatan Panel Otomatisasi</h3>
+                    <p>Instalasi komponen panel kontrol berbasis PLC Panasonic FP-X dan HMI WEINTEK dengan komunikasi RS-232 dan intergrasikan dengan Collaborative Robot (COBOT) dengan komunikasi secara real-time serta dilengkapi sistem IOT untuk monitoring jarak jauh yang sesuai dengan standar industri dan safety K3.</p>
+                    <div class="project-evidence">
+                        <a href="https://drive.google.com/drive/folders/1B0IoVN928fD7GSyFSIUKQfuwmBJrkzb7" target="_blank" class="evidence-link"><i class="fas fa-file-image"></i> Foto Wiring</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-card reveal-element">
+                <div class="card-img-container">
+                    <img src="assets/esp32-iot.png" alt="IoT Project" class="portfolio-img">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Internet of Things</span>
+                    <h3>Monitoring Energi Terdistribusi ESP32</h3>
+                    <p>Sistem pembacaan data sensor arus dan tegangan listrik berbasis ESP32 yang dikirim ke dashboard IoT secara real-time.</p>
+                    <div class="project-evidence">
+                        <a href="https://github.com/danywahyuhidayat270806" target="_blank" class="evidence-link"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-card reveal-element">
+                <div class="card-img-container">
+                    <img src="assets/cad.png" alt="AutoCAD Design" class="portfolio-img">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Desain Sistem</span>
+                    <h3>Perancangan Diagram Kelistrikan kapal AutoCAD</h3>
+                    <p>Pembuatan blueprint gambar teknik skema kelistrikan daya dan kontrol untuk standardisasi perakit kelistrikan kapal home base.</p>
+                    <div class="project-evidence">
+                        <a href="https://drive.google.com/drive/folders/1B0IoVN928fD7GSyFSIUKQfuwmBJrkzb7" target="_blank" class="evidence-link"><i class="fas fa-file-pdf"></i> File CAD/PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-card reveal-element">
+                <div class="card-img-container">
+                    <img src="assets/scada-hmi.png" alt="SCADA Design" class="portfolio-img">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">HMI & SCADA</span>
+                    <h3>Desain Interface Monitoring Pabrik Kelapa Sawit</h3>
+                    <p>Menggunakan EasyBuilder Pro untuk mendesain tata letak grafis HMI interaktif demi mempermudah operator memantau interlock system.</p>
+                    <div class="project-evidence">
+                        <a href="https://drive.google.com/drive/folders/1B0IoVN928fD7GSyFSIUKQfuwmBJrkzb7" target="_blank" class="evidence-link"><i class="fas fa-image"></i> Screenshot</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-card reveal-element">
+                <div class="card-img-container">
+                    <img src="assets/conveyor-system.png" alt="Conveyor System" class="portfolio-img">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Sistem Mekatronika</span>
+                    <h3>Sistem Kontrol Penggerak Conveyor Pertambangan</h3>
+                    <p>Penyusunan logis program ladder diagram counter, timer, dan interlocking keselamatan untuk operasional conveyor kecepatan tinggi.</p>
+                    <div class="project-evidence">
+                        <a href="https://drive.google.com/drive/folders/1B0IoVN928fD7GSyFSIUKQfuwmBJrkzb7" target="_blank" class="evidence-link"><i class="fas fa-file-alt"></i> Dokumentasi</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= ACHIEVEMENTS ================= -->
+<!-- ================= ACHIEVEMENTS ================= -->
+<section id="achievements" class="achievements-section">
+    <div class="section-container">
+
+        <h2 class="section-title reveal-element">Penghargaan & Prestasi Nasional</h2>
+        <p class="section-subtitle reveal-element">Rekam jejak kompetisi dan pencapaian teknis tingkat kabupaten hingga nasional.</p>
+
+        <div class="portfolio-grid">
+
+            <div class="portfolio-card achievement-card reveal-element">
+                <div class="achievement-icon"><i class="fas fa-trophy" style="color:#f6e05e;"></i></div>
+                <div class="achievement-info">
+                    <h4>Juara 1 Lomba PLC Tingkat Nasional</h4>
+                    <p>Politeknik Negeri Madiun (UNIPMA) — 2024</p>
+                    <button class="btn-doc" onclick="openLightbox('assets/prestasi/plc-unipma-2024.jpg', 'Juara 1 Lomba PLC — UNIPMA 2024')">
+                        <i class="fas fa-image"></i> Lihat Dokumentasi
+                    </button>
+                </div>
+            </div>
+
+            <div class="portfolio-card achievement-card reveal-element">
+                <div class="achievement-icon"><i class="fas fa-trophy" style="color:#f6e05e;"></i></div>
+                <div class="achievement-info">
+                    <h4>Juara 1 Lomba PLC Tingkat Nasional</h4>
+                    <p>Politeknik Negeri Surabaya (PPNS) — 2024</p>
+                    <button class="btn-doc" onclick="openLightbox('assets/prestasi/plc-ppns-2024.jpg', 'Juara 1 Lomba PLC — PPNS 2024')">
+                        <i class="fas fa-image"></i> Lihat Dokumentasi
+                    </button>
+                </div>
+            </div>
+
+            <div class="portfolio-card achievement-card reveal-element">
+                <div class="achievement-icon"><i class="fas fa-medal" style="color:#a0aec0;"></i></div>
+                <div class="achievement-info">
+                    <h4>Juara 2 Lomba Collaborative Robot (COBOT)</h4>
+                    <p>Schneider Tingkat Nasional — PNJ Jakarta, 2025</p>
+                    <button class="btn-doc" onclick="openLightbox('assets/prestasi/cobot-pnj-2025.jpg', 'Juara 2 COBOT Schneider — PNJ Jakarta 2025')">
+                        <i class="fas fa-image"></i> Lihat Dokumentasi
+                    </button>
+                </div>
+            </div>
+
+            <div class="portfolio-card achievement-card reveal-element">
+                <div class="achievement-icon"><i class="fas fa-medal" style="color:#a0aec0;"></i></div>
+                <div class="achievement-info">
+                    <h4>Juara 2 LKS Mechatronics</h4>
+                    <p>Tingkat Kabupaten — 2024</p>
+                    <button class="btn-doc" onclick="openLightbox('assets/prestasi/lks-mekatronika-2024.jpg', 'Juara 2 LKS Mechatronics Tingkat Kabupaten 2024')">
+                        <i class="fas fa-image"></i> Lihat Dokumentasi
+                    </button>
+                </div>
+            </div>
+
+            <div class="portfolio-card achievement-card reveal-element">
+                <div class="achievement-icon"><i class="fas fa-trophy" style="color:#f6e05e;"></i></div>
+                <div class="achievement-info">
+                    <h4>Juara 1 LKS Robot Manufaktur</h4>
+                    <p>Tingkat Kabupaten — 2025</p>
+                    <button class="btn-doc" onclick="openLightbox('assets/prestasi/lks-robot-kab-2025.jpg', 'Juara 1 LKS Robot Manufaktur Tingkat Kabupaten 2025')">
+                        <i class="fas fa-image"></i> Lihat Dokumentasi
+                    </button>
+                </div>
+            </div>
+
+            <div class="portfolio-card achievement-card reveal-element">
+                <div class="achievement-icon"><i class="fas fa-award" style="color:#ed8936;"></i></div>
+                <div class="achievement-info">
+                    <h4>Juara 3 LKS Robot Manufaktur</h4>
+                    <p>Tingkat Provinsi — 2025</p>
+                    <button class="btn-doc" onclick="openLightbox('assets/prestasi/lks-robot-prov-2025.jpg', 'Juara 3 LKS Robot Manufaktur Tingkat Provinsi 2025')">
+                        <i class="fas fa-image"></i> Lihat Dokumentasi
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= LIGHTBOX MODAL ================= -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+    <div class="lightbox-overlay"></div>
+    <div class="lightbox-container">
+        <button class="lightbox-close" onclick="closeLightbox()">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="lightbox-prev" onclick="changeImage(-1)">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <p id="lightbox-caption"></p>
+        </div>
+        <button class="lightbox-next" onclick="changeImage(1)">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+</div>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="contact-section">
+    <div class="section-container">
+
+        <h2 class="section-title reveal-element">Mari Bekerjasama</h2>
+        <p class="section-subtitle reveal-element">
+            Punya proyek otomasi, kebutuhan perakitan panel sistem kendali, atau peluang kerja?
+            Hubungi saya melalui platform di bawah ini.
+        </p>
+
+        <p class="contact-location reveal-element">
+            <i class="fas fa-map-marker-alt"></i>
+            Sukolilo, Surabaya &nbsp;/&nbsp; Wringinanom, Gresik
+        </p>
+
+        <div class="social-grid reveal-element">
+            <a href="https://wa.me/6283168649467" target="_blank" class="social-card">
+                <i class="fab fa-whatsapp" style="color:#25D366;"></i>
+                <span>WhatsApp</span>
+            </a>
+            <a href="https://instagram.com/danywhyu" target="_blank" class="social-card">
+                <i class="fab fa-instagram" style="color:#E1306C;"></i>
+                <span>Instagram</span>
+            </a>
+            <a href="https://www.linkedin.com/in/dany-wahyu-hidayat-a1b205313" target="_blank" class="social-card">
+                <i class="fab fa-linkedin-in" style="color:#0077B5;"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://tiktok.com/@danywhyu27" target="_blank" class="social-card">
+                <i class="fab fa-tiktok"></i>
+                <span>TikTok</span>
+            </a>
+            <a href="https://facebook.com/dany" target="_blank" class="social-card">
+                <i class="fab fa-facebook-f" style="color:#1877F2;"></i>
+                <span>Facebook</span>
+            </a>
+            <a href="https://www.youtube.com/@Danywahyutoe" target="_blank" class="social-card">
+                <i class="fab fa-youtube" style="color:#FF0000;"></i>
+                <span>YouTube</span>
+            </a>
+        </div>
+
+        <div class="contact-email reveal-element">
+            <a href="mailto:danywahyuhidayat270806@gmail.com" class="btn btn-primary">
+                <i class="fas fa-envelope"></i> Kirim Email Langsung
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>&copy; 2026 Dany Wahyu Hidayat. All rights reserved.</p>
+</footer>
+
+<!-- ================= BACK TO TOP ================= -->
+<button id="back-to-top" title="Kembali ke atas">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- ================= JAVASCRIPT ================= -->
+<script>
+/* ===== HAMBURGER MENU ===== */
+const navToggle = document.getElementById('nav-toggle');
+const navMenu   = document.getElementById('nav-menu');
+
+navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+    const icon = navToggle.querySelector('i');
+    icon.classList.toggle('fa-bars');
+    icon.classList.toggle('fa-times');
+});
+
+document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.remove('show');
+        const icon = navToggle.querySelector('i');
+        icon.classList.add('fa-bars');
+        icon.classList.remove('fa-times');
+    });
+});
+
+/* ===== DARK MODE ===== */
+const themeBtn  = document.getElementById('theme-btn');
+const themeIcon = themeBtn.querySelector('i');
+
+// Simpan preferensi user
+if (localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark-theme');
+    themeIcon.classList.replace('fa-moon', 'fa-sun');
+}
+
+themeBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-theme');
+    const isDark = document.body.classList.contains('dark-theme');
+    themeIcon.classList.toggle('fa-moon', !isDark);
+    themeIcon.classList.toggle('fa-sun',  isDark);
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+});
+
+/* ===== ACTIVE NAV ON SCROLL ===== */
+const sections  = document.querySelectorAll('section[id]');
+const navLinks  = document.querySelectorAll('.nav-link');
+
+function updateActiveNav() {
+    const scrollY = window.scrollY;
+    sections.forEach(section => {
+        const top    = section.offsetTop - 100;
+        const bottom = top + section.offsetHeight;
+        const id     = section.getAttribute('id');
+        if (scrollY >= top && scrollY < bottom) {
+            navLinks.forEach(l => l.classList.remove('active'));
+            const active = document.querySelector(`.nav-link[href="#${id}"]`);
+            if (active) active.classList.add('active');
+        }
+    });
+}
+
+window.addEventListener('scroll', updateActiveNav);
+
+/* ===== SCROLL REVEAL ===== */
+const revealEls = document.querySelectorAll('.reveal-element');
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+            setTimeout(() => {
+                entry.target.classList.add('active-reveal');
+            }, i * 80);
+            observer.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.1 });
+
+revealEls.forEach(el => observer.observe(el));
+
+/* ===== TYPING EFFECT ===== */
+const typingEl = document.getElementById('typing-text');
+const words    = ['Otomasi Industri', 'Pemrograman PLC', 'Sistem Mekatronika', 'IoT & ESP32', 'Kelistrikan Industri'];
+let wordIndex  = 0;
+let charIndex  = 0;
+let isDeleting = false;
+
+function type() {
+    const current = words[wordIndex];
+    if (isDeleting) {
+        typingEl.textContent = current.substring(0, charIndex - 1);
+        charIndex--;
+    } else {
+        typingEl.textContent = current.substring(0, charIndex + 1);
+        charIndex++;
+    }
+
+    let delay = isDeleting ? 60 : 100;
+
+    if (!isDeleting && charIndex === current.length) {
+        delay = 1800;
+        isDeleting = true;
+    } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        wordIndex  = (wordIndex + 1) % words.length;
+        delay = 400;
+    }
+
+    setTimeout(type, delay);
+}
+
+type();
+
+/* ===== BACK TO TOP ===== */
+const backToTop = document.getElementById('back-to-top');
+
+window.addEventListener('scroll', () => {
+    backToTop.classList.toggle('visible', window.scrollY > 400);
+});
+
+backToTop.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+</script>
+
+</body>
+</html>
