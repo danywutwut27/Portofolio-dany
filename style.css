@@ -459,12 +459,15 @@ ul { list-style: none; }
 }
 
 .portfolio-card {
-    background: var(--card-bg);
+    background-color: var(--card-bg);
     border: 1px solid var(--border-color);
-    border-radius: var(--radius);
+    border-radius: 12px;
     overflow: hidden;
-    transition: transform var(--transition), box-shadow var(--transition);
-    box-shadow: var(--shadow-sm);
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+    /* Tambahan Kunci agar isi di dalamnya bisa diatur secara vertikal */
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio-card:hover {
@@ -493,7 +496,11 @@ ul { list-style: none; }
     transform: scale(1.07);
 }
 
-.card-body { padding: 1.4rem; }
+.card-body { padding: 1.4rem;
+display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+ }
 
 .card-category {
     font-size: .72rem;
@@ -535,7 +542,7 @@ ul { list-style: none; }
     gap: .5rem;
     padding-top: 1rem;
     border-top: 1px solid var(--border-color);
-    margin-top: .5rem;
+    margin-top: auto;
 }
 
 .evidence-link {
